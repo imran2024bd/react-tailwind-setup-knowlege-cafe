@@ -1,6 +1,8 @@
-import { useState } from 'react'
+
 
 import './App.css'
+import Blogs from './components/Blogs/Blogs'
+import Header from './components/Header/Header'
 
 function App() {
   
@@ -8,7 +10,8 @@ function App() {
   return (
     <>
       
-      <h1 className='text-6xl , bg-orange-400'>React Tailwind Setup Knowledge Cafe</h1>
+      <Header></Header>
+      <Blogs></Blogs>
       
     </>
   )
